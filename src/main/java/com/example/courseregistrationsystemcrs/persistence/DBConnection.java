@@ -8,8 +8,7 @@ import java.io.InputStream;
 
 public class DBConnection {
 
-    private static final String PROPERTIES_FILE = "db.properties";
-
+    private static final String PROPERTIES_FILE = "application.properties";
     private static Properties properties;
 
     private static Properties loadProperties() {
